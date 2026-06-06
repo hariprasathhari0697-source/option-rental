@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Details - Easy Rent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">Easy Rent</a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="houses.html">Houses</a>
+                <a href="hostels.html">Hostels</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container details-page">
+        <div class="details-grid">
+            <section class="details-main">
+                <h2>Modern 3-Bedroom House</h2>
+                <p class="details-meta">Location: Downtown | Rent: ₹850 / month</p>
+                <div class="image-slider">
+                    <img src="https://via.placeholder.com/860x420?text=Property+Image+1" alt="Property Image">
+                </div>
+                <div class="property-description">
+                    <h3>Property Description</h3>
+                    <p>This beautiful house includes spacious bedrooms, a modern kitchen, and a landscaped backyard. Ideal for families or professionals looking for a comfortable stay in the city.</p>
+                </div>
+                <div class="property-features">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>3 Bedrooms</li>
+                        <li>2 Bathrooms</li>
+                        <li>Parking Space</li>
+                        <li>24/7 Security</li>
+                        <li>Near shopping and transit</li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside class="booking-card">
+                <h3>Book This Property</h3>
+                <form action="booking.php" method="post" id="bookingForm">
+                    <input type="hidden" name="property_id" value="1">
+                    <label for="bookingDate">Preferred Booking Date</label>
+                    <input type="date" id="bookingDate" name="booking_date" required>
+                    <button type="submit" class="btn btn-primary">Confirm Booking</button>
+                </form>
+                <div class="contact-owner">
+                    <h4>Contact Owner</h4>
+                    <p>Email: owner@example.com</p>
+                    <p>Phone: +1 (234) 567-8900</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Easy Rent.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
